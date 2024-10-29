@@ -1,4 +1,4 @@
-#  Centralised Hybrid Infrastructure Monitoring with Alerting
+#  Hybrid Infra Monitoring with Alerting
 
 A solution to monitor both on-premise and cloud infrastructure metrics using **Grafana**, **Prometheus**, and **CloudWatch**, with integrated alerting through **Slack**.
 
