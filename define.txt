@@ -1,0 +1,20 @@
+Centralised Hybrid Infrastructure Monitoring with Alerting
+A solution to monitor both on-premise and cloud infrastructure metrics using Grafana, Prometheus, and CloudWatch, with integrated alerting through Slack.
+
+Overview
+This project provides centralized monitoring and alerting for a hybrid infrastructure, combining on-prem Linux servers and cloud metrics. Using Grafana, it consolidates data from Prometheus, Loki, and CloudWatch to provide real-time insights and notifications.
+
+Features
+Hybrid Monitoring: Tracks both on-premise server metrics and cloud infrastructure.
+Alerting Integration: Configured alerts sent to Slack for proactive response.
+Modular Setup: Easily scalable across on-premise and cloud environments.
+Architecture
+Components Used
+Grafana: Visualization and alerting tool, integrated with Slack for notifications.
+Prometheus: Used for metrics collection on on-premise servers.
+Promtail & Loki: Log aggregation from on-prem servers.
+Node Exporter: Provides detailed hardware and OS metrics from on-prem servers.
+CloudWatch: Collects metrics from cloud infrastructure.
+Access Control
+IAM Role: Configured to allow Grafana to access CloudWatch metrics.
+IAM Policies: Limited permissions provided to access necessary metrics securely.
