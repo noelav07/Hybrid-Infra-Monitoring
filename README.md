@@ -44,7 +44,7 @@ This project provides centralized monitoring and alerting for a hybrid infrastru
 
 ### Alerts  
 ![Alert 1](./res/alert_rules.png)  
-![Alert 2](./res/alert_rules2.png)
+![Alert 2](./res/alert_rules_2.png)
 
 ### Data Source Configuration  
 ![Data Source](./res/data_source.png)
